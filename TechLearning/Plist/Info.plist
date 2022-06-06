@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Geometria-Bold.ttf</string>
+		<string>Geometria-ExtraBold.ttf</string>
+		<string>Geometria-ExtraLight.ttf</string>
+		<string>Geometria-Heavy.ttf</string>
+		<string>Geometria-Light.ttf</string>
+		<string>Geometria-Medium.ttf</string>
+		<string>Geometria-Thin.ttf</string>
+		<string>Geometria.ttf</string>
+		<string>Roboto-Black.ttf</string>
+		<string>Roboto-Bold.ttf</string>
+		<string>Roboto-Light.ttf</string>
+		<string>Roboto-Medium.ttf</string>
+		<string>Roboto-Regular.ttf</string>
+		<string>Roboto-Thin.ttf</string>
+		<string>Akrobat-Black.otf</string>
+		<string>Akrobat-Bold.otf</string>
+		<string>Akrobat-ExtraBold.otf</string>
+		<string>Akrobat-ExtraLight.otf</string>
+		<string>Akrobat-Light.otf</string>
+		<string>Akrobat-Regular.otf</string>
+		<string>Akrobat-SemiBold.otf</string>
+		<string>Akrobat-Thin.otf</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Authentication</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="116" id="KGk-i7-Jjw" customClass="LessonsCell" customModule="TechLearning" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="116"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="116"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mev-uk-oXX" customClass="ShedwoView" customModule="TechLearning" customModuleProvider="target">
+                        <rect key="frame" x="10" y="5" width="355" height="106"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="Dii-3N-GzH">
+                                <rect key="frame" x="8" y="8" width="339" height="90"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detailTableImage" translatesAutoresizingMaskIntoConstraints="NO" id="7UE-Lb-Dbf">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="7UE-Lb-Dbf" secondAttribute="height" multiplier="1:1" id="wuf-Z5-SYE"/>
+                                            <constraint firstAttribute="width" constant="60" id="zt3-fJ-3vd"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="eBy-zs-DOd">
+                                        <rect key="frame" x="74" y="0.0" width="265" height="66.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lesson 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGg-iN-4Uq">
+                                                <rect key="frame" x="0.0" y="0.0" width="66" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It is a long established fact that a reader will be distracted" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xoa-uE-2o6">
+                                                <rect key="frame" x="0.0" y="25.5" width="254.5" height="41"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Dii-3N-GzH" secondAttribute="bottom" constant="8" id="GSe-rM-wJQ"/>
+                            <constraint firstItem="Dii-3N-GzH" firstAttribute="top" secondItem="mev-uk-oXX" secondAttribute="top" constant="8" id="LI7-S9-Vrz"/>
+                            <constraint firstAttribute="trailing" secondItem="Dii-3N-GzH" secondAttribute="trailing" constant="8" id="Qb9-O7-FOm"/>
+                            <constraint firstItem="Dii-3N-GzH" firstAttribute="leading" secondItem="mev-uk-oXX" secondAttribute="leading" constant="8" id="XiZ-re-fHa"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="mev-uk-oXX" secondAttribute="trailing" constant="10" id="06e-yT-1H7"/>
+                    <constraint firstItem="mev-uk-oXX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="jxh-eH-Zzh"/>
+                    <constraint firstItem="mev-uk-oXX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="wtL-Wu-1hj"/>
+                    <constraint firstAttribute="bottom" secondItem="mev-uk-oXX" secondAttribute="bottom" constant="5" id="zpv-WA-f08"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="imgLesson" destination="7UE-Lb-Dbf" id="gge-qr-HAH"/>
+                <outlet property="lblLessonDescrption" destination="Xoa-uE-2o6" id="PVW-db-0zM"/>
+                <outlet property="lblLessonName" destination="eGg-iN-4Uq" id="BRJ-Hm-liQ"/>
+            </connections>
+            <point key="canvasLocation" x="131.15942028985509" y="107.8125"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="detailTableImage" width="59" height="58"/>
+    </resources>
+</document>
